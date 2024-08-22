@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.solar-system {
+    background: #000;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    position: relative;
+    padding-left:2vw;
+}
+.sun {
+    width: 16vw;
+    height: 16vw;
+    border-radius: 50%;
+    background-image: linear-gradient(#fa8607 40%, #fa961b, #fcb033, #fecc51, #ffe469, #fff578);
+    position: absolute;
+    left:30%;
+}
+.Mercury {
+    width: 1vw;
+    height: 1vw;
+    border-radius: 50%;
+    background-image: linear-gradient(silver, grey);
+    margin: 1vw;
+}
+.Venus {
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    background-image: linear-gradient(#a57c1b, #c18f17, #e39e1c, #f9c21a, #e7d520);
+    margin: 1vw;
+    left:48%;
+}
+.Earth {
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+    background-image: linear-gradient(#4f4cb0, #6b93d6, #e9eff9, #9fc164, #d8c596);
+    left:52%;
+    margin: 1vw;
+}
+.Mars {
+    width: 4.5vw;
+    height: 4.5vw;
+    border-radius: 50%;
+    background: rgba(238, 26, 11, 0.859);
+    margin: 1vw;
+    left:58%;
+}
+.Jupiter {
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    background-image: linear-gradient(#ebf3f6,#e3dccb,#d8ca9d,#a59186,#c99039);
+    margin: 1vw;
+    left:64%;
+}
+.Uranus {
+    width: 4vw;
+    height: 4vw;
+    border-radius: 50%;
+    background:#B2D6DB;
+    margin: 1vw;
+    left:66%;
+}
+.Saturn {
+    width: 7vw;
+    height: 7vw;
+    border-radius: 50%;
+    background:linear-gradient(#ceb8b8,#ead6b8,#e3e0c0,#bfbdaf,	#cecece);
+    margin: 1vw;
+    left:70%;
+}
+.neptune {
+    width: 6vw;
+    height: 6vw;
+    border-radius: 50%;
+    background: linear-gradient(#212354,#3E54E8,#3E66F9,#6081FF,#89F3FF);
+    margin: 1vw;
+    position: absolute;
+    left:70%;
+}
+.mer{
+    position: absolute;
+    width: 25vw;
+    left: 25vw;
+    animation: all 2.9s linear infinite;
+}
+.ven{
+    position: absolute;
+    width: 29vw;
+    left:23vw;
+    animation: all 3.0s linear infinite;
+}
+.ear{
+    position: absolute;
+    width: 34vw;
+    left: 23vw;
+    animation: all 3.1s linear infinite;
+}
+.mar{
+    position: absolute;
+    width: 40vw;
+    left:21vw;
+    animation: all 3.2s linear infinite;
+}
+.jup{
+    position: absolute;
+    width: 56vw;
+    left: 18vw;
+    animation: all 3.3s linear infinite;
+}
+.urn{
+    position: absolute;
+    width: 53vw;
+    left: 16vw;
+    animation: all 3.4s linear infinite;
+}
+.sat{
+    position: absolute;
+    width: 55vw;
+    left: 20vw;
+    animation: all 3.5s linear infinite;
+}
+.nep{
+    position: absolute;
+    width:57vw;
+    left: 7vw;
+    animation: all 3.6s linear infinite;
+}
+@keyframes all {
+0%{
+    transform: rotate(360deg);
+}
+}
